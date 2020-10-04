@@ -1,0 +1,35 @@
+<div class="Container" style="background-color: #D9D9D9;">
+    <app-newtopnavbar></app-newtopnavbar>
+    <div style="height:2px;"><br></div>
+    <div class="Container">
+        <div class="row">
+            <div class="col-sm-2">
+               <app-sidenavbar></app-sidenavbar>
+            </div>
+            <div class="col-sm-10">
+                <div class="Container">
+                    <br><br><br><br><br>
+                    <div class="row">
+                        <div class="col-sm-2">
+    
+                        </div>
+                        <div class="col-sm-3"style="position: relative;right: 60px;">
+                            <div class="form-group">
+                                <label for="empid">Employee Id*</label>
+                                <input type="number" style="width: 260px; height: 50px;border: 2px solid #1482AC;" class="form-control" id="empid" name="empid" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-3"style="position: relative;top: 30px;">
+                            <button type="button"(click)="Modify()" class="btn"style="background-color: #1482AC;color:white;padding: 10px 80px">Modify</button>
+                        </div>
+                        <div class="col-sm-3"style="position: relative;top: 30px;">
+                            <button type="button"(click)="Back()" class="btn"style="background-color: #1482AC;color:white;padding: 10px 85px">Back</button>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+</div>

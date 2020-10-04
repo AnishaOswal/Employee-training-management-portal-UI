@@ -1,0 +1,98 @@
+<div class="Container" style="background-color: #D9D9D9;">
+    <app-newtopnavbar></app-newtopnavbar>
+    <div style="height:2px;"><br></div>
+    <div class="Container">
+        <div class="row">
+            <div class="col-sm-2">
+               <app-sidenavbar></app-sidenavbar>
+            </div>
+            <div class="col-sm-10">
+                <br><br><div class="Container">
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="empid">Employee Id*</label>
+                                <input type="number" style="width: 260px; height: 50px;border: 2px solid #1482AC;" class="form-control" id="empid" name="empid" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="firstname">First Name*</label>
+                                <input type="text" style="width: 260px; height: 50px;border: 2px solid #1482AC;" class="form-control" id="firstname" name="firstname" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="middlename">Middle Name*</label>
+                                <input type="text" style="width: 260px; height: 50px;border: 2px solid #1482AC;" class="form-control" id="middlename" name="middlename" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <br><br>
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="lastname">Last Name*</label>
+                                <input type="text" style="width: 260px; height: 50px;border: 2px solid #1482AC;" class="form-control" id="lastname" name="lastname" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="email">Email Id*</label>
+                                <input type="email" style="width: 260px; height: 50px;border: 2px solid #1482AC;" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="dob">DOB*</label>
+                                <input type="date" style="width: 260px; height: 50px;border: 2px solid #1482AC;" class="form-control" id="dob" name="dob" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="city">City*</label>
+                                <input type="text" style="width: 260px; height: 50px; border: 2px solid #1482AC; " class="form-control" id="city" name="city" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="contactno"> Contact No*</label>
+                                <input type="text" style="width: 260px; height: 50px;border: 2px solid #1482AC;" class="form-control" id="contactno" name="contactno" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6" style="position: relative;left: 300px;">
+                            <button type="button"(click)="Success()" class="btn"style="background-color: #1482AC;color:white;padding: 10px 80px">Save</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button type="button"(click)="Cancel()" class="btn"style="background-color: #1482AC;color:white;padding: 10px 70px">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+</div>
